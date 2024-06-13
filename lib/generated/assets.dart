@@ -14,4 +14,5 @@ class Assets {
   static const String fontsPoppinsSemiBold =
       'assets/fonts/Poppins-SemiBold.ttf';
   static const String fontsPoppinsThin = 'assets/fonts/Poppins-Thin.ttf';
+  static const String imagesMyPic = 'assets/images/my_pic.jpg';
 }

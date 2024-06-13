@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gautham_protfolio_new/generated/assets.dart';
 import 'package:gautham_protfolio_new/src/core/app_routes.dart';
-import 'package:gautham_protfolio_new/src/pages/home/mobile/mobile_app_bar_item_d.dart';
-import 'package:gautham_protfolio_new/src/pages/home/widgets/social_media_icons.dart';
 import 'package:gautham_protfolio_new/src/utilities/paddings.dart';
 import 'package:gautham_protfolio_new/src/utilities/sizes.dart';
+
+import 'home_drawer_item_m.dart';
 
 class MobileHomeDrawer extends StatelessWidget {
   const MobileHomeDrawer({super.key, required this.selectedIndex, required this.itemSelected});
@@ -95,7 +95,7 @@ class MobileHomeDrawer extends StatelessWidget {
           ),
         ),
         Sizes.h12,
-        const SocialMediaIcons(),
+        // const SocialMediaIcons(),
         Sizes.h56,
       ],
     );

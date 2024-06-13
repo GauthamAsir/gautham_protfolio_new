@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-double defaultScreenWidth = 400;
-double defaultScreenHeight = 810;
-double screenWidth = defaultScreenWidth;
-double screenHeight = defaultScreenHeight;
 
 class ScreenSize {
   static bool initialized = false;
 
-  static double getSize(double value) => value.h;
+  static double getSize(double value) => value;
 
   //<editor-fold desc="Width Getters">
   static double get appContentPadding => getSize(20);
@@ -141,19 +135,6 @@ class ScreenSize {
   static double get defaultImageHeight => s100;
 
   static double get defaultImageRadius => s40;
-
-  //</editor-fold>
-
-  /*Screen Size dependent Constants*/
-  static double screenWidthHalf = screenWidth / 2;
-  static double screenHeightHalf = screenHeight / 2;
-  static double screenHeightThird = screenHeight / 0.6;
-  static double screenWidthThird = screenWidth / 3;
-  static double screenWidthFourth = screenWidth / 4;
-  static double screenWidthFifth = screenWidth / 5;
-  static double screenWidthSixth = screenWidth / 6;
-  static double screenWidthTenth = screenWidth / 10;
-  static double screenWidthTwelfth = screenWidth / 12;
 
   static EdgeInsets get defaultSpace => EdgeInsets.all(ScreenSize.s8);
 

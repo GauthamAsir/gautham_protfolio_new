@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gautham_protfolio_new/src/utilities/constants.dart';
 
 import 'app_colors.dart';
@@ -129,10 +128,10 @@ class Themes {
               const BorderSide(color: Colors.black),
             ),
             textStyle: WidgetStateProperty.all(
-              TextStyle(
-                // fontFamily: FontFamily.redHatDisplay,
+              const TextStyle(
+                fontFamily: FontFamily.poppins,
                 fontWeight: FontWeight.w600,
-                fontSize: 16.sp,
+                fontSize: 16,
                 color: Colors.black,
               ),
             ),
@@ -143,24 +142,20 @@ class Themes {
             // ),
           ),
         ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ButtonStyle(
-            minimumSize: WidgetStateProperty.all(const Size.fromHeight(52)),
-            textStyle: WidgetStateProperty.all(
-              TextStyle(
-                fontSize: FontSizes.s14,
-                fontWeight: FontWeight.w700,
-                fontFamily: FontFamily.poppins,
-              ),
-            ),
-            backgroundColor: WidgetStateProperty.all(AppColors.primaryColor),
-            shape: WidgetStateProperty.all(
-              RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(0),
-              ),
-            ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ButtonStyle(
+        minimumSize: WidgetStateProperty.all(const Size.fromHeight(52)),
+        textStyle: WidgetStateProperty.all(
+          TextStyle(fontSize: FontSizes.s12, fontWeight: FontWeight.w400),
+        ),
+        backgroundColor: WidgetStateProperty.all(AppColors.primaryColor),
+        shape: WidgetStateProperty.all(
+          RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(5),
           ),
         ),
+      ),
+    ),
         checkboxTheme: CheckboxThemeData(
           checkColor: WidgetStateProperty.all(Colors.white),
           fillColor: WidgetStateProperty.resolveWith(
@@ -270,12 +265,12 @@ class Themes {
           style: ButtonStyle(
             minimumSize: WidgetStateProperty.all(const Size.fromHeight(52)),
             textStyle: WidgetStateProperty.all(
-              TextStyle(fontSize: FontSizes.s12, fontWeight: FontWeight.w400),
+              TextStyle(fontSize: FontSizes.s12, fontWeight: FontWeight.w400,),
             ),
             backgroundColor: WidgetStateProperty.all(AppColors.primaryColor),
             shape: WidgetStateProperty.all(
               RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(32),
+                borderRadius: BorderRadius.circular(5),
               ),
             ),
           ),

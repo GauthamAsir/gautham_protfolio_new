@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../utilities/app_colors.dart';
 
@@ -44,10 +43,10 @@ class AppRouter {
                     const CircularProgressIndicator(),
                     Text(
                       text,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: AppColors.darkColor,
                         fontWeight: FontWeight.w600,
-                        fontSize: 18.sp,
+                        fontSize: 18,
                       ),
                     )
                   ],
@@ -72,33 +71,32 @@ class AppRouter {
         content: Row(
           children: [
             Container(
-              height: 56.h,
-              width: 5.w,
-              decoration: BoxDecoration(
+              height: 56,
+              width: 5,
+              decoration: const BoxDecoration(
                 color: Colors.red,
-                borderRadius:
-                    BorderRadius.horizontal(left: Radius.circular(6.r)),
+                borderRadius: BorderRadius.horizontal(left: Radius.circular(6)),
               ),
             ),
-            SizedBox(
-              width: 24.w,
+            const SizedBox(
+              width: 24,
             ),
-            Icon(
+            const Icon(
               Icons.cancel,
-              size: 24.sp,
+              size: 24,
               color: Colors.red,
             ),
-            SizedBox(
-              width: 10.w,
+            const SizedBox(
+              width: 10,
             ),
             Text(
               message,
               maxLines: 3,
               overflow: TextOverflow.ellipsis,
-              style: TextStyle(
+              style: const TextStyle(
                 color: AppColors.darkColor,
                 fontWeight: FontWeight.w600,
-                fontSize: 14.sp,
+                fontSize: 14,
               ),
             ),
             IconButton(
@@ -114,7 +112,7 @@ class AppRouter {
         ),
         backgroundColor: AppColors.darkColor,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(6.r),
+          borderRadius: BorderRadius.circular(6),
           side: BorderSide(
             color: AppColors.darkColor.withOpacity(0.06),
           ),
@@ -135,31 +133,30 @@ class AppRouter {
         content: Row(
           children: [
             Container(
-              height: 56.h,
-              width: 6.w,
-              decoration: BoxDecoration(
+              height: 56,
+              width: 6,
+              decoration: const BoxDecoration(
                 color: AppColors.primaryColor,
-                borderRadius:
-                    BorderRadius.horizontal(left: Radius.circular(6.r)),
+                borderRadius: BorderRadius.horizontal(left: Radius.circular(6)),
               ),
             ),
-            SizedBox(
-              width: 24.w,
+            const SizedBox(
+              width: 24,
             ),
-            Icon(
+            const Icon(
               Icons.check_circle,
-              size: 24.sp,
+              size: 24,
               color: AppColors.primaryColor,
             ),
-            SizedBox(
-              width: 10.w,
+            const SizedBox(
+              width: 10,
             ),
             Text(
               message,
-              style: TextStyle(
+              style: const TextStyle(
                 color: AppColors.darkColor,
                 fontWeight: FontWeight.w600,
-                fontSize: 14.sp,
+                fontSize: 14,
               ),
             ),
             const Spacer(),
@@ -176,7 +173,7 @@ class AppRouter {
         ),
         backgroundColor: AppColors.darkColor,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(6.r),
+          borderRadius: BorderRadius.circular(6),
           side: BorderSide(
             color: AppColors.darkColor.withOpacity(0.06),
           ),

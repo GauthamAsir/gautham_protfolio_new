@@ -1,29 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'screen_size.dart';
 
 class Sizes {
-  static final w4 = SizedBox(width: 4.w);
-  static final w8 = SizedBox(width: 8.w);
-  static final w12 = SizedBox(width: 12.w);
-  static final w16 = SizedBox(width: 16.w);
-  static final w20 = SizedBox(width: 20.w);
-  static final w24 = SizedBox(width: 24.w);
-  static final w28 = SizedBox(width: 28.w);
-  static final w32 = SizedBox(width: 32.w);
-  static final w36 = SizedBox(width: 36.w);
-  static final w40 = SizedBox(width: 40.w);
-  static final w48 = SizedBox(width: 48.w);
-  static final w52 = SizedBox(width: 52.w);
-  static final w56 = SizedBox(width: 56.w);
-  static final w64 = SizedBox(width: 64.w);
-  static final w72 = SizedBox(width: 72.w);
+  static const w4 = SizedBox(width: 4);
+  static const w8 = SizedBox(width: 8);
+  static const w12 = SizedBox(width: 12);
+  static const w16 = SizedBox(width: 16);
+  static const w20 = SizedBox(width: 20);
+  static const w22 = SizedBox(width: 22);
+  static const w24 = SizedBox(width: 24);
+  static const w28 = SizedBox(width: 28);
+  static const w32 = SizedBox(width: 32);
+  static const w36 = SizedBox(width: 36);
+  static const w40 = SizedBox(width: 40);
+  static const w48 = SizedBox(width: 48);
+  static const w52 = SizedBox(width: 52);
+  static const w56 = SizedBox(width: 56);
+  static const w64 = SizedBox(width: 64);
+  static const w72 = SizedBox(width: 72);
   static final h4 = SizedBox(height: ScreenSize.s4);
   static final h8 = SizedBox(height: ScreenSize.s8);
   static final h12 = SizedBox(height: ScreenSize.s12);
   static final h16 = SizedBox(height: ScreenSize.s16);
   static final h20 = SizedBox(height: ScreenSize.s20);
+  static final h22 = SizedBox(height: ScreenSize.s22);
   static final h24 = SizedBox(height: ScreenSize.s24);
   static final h28 = SizedBox(height: ScreenSize.s28);
   static final h32 = SizedBox(height: ScreenSize.s32);

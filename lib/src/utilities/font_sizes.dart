@@ -1,9 +1,7 @@
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 class FontSizes {
   static bool initialized = false;
 
-  static double getSp(double value) => value.sp;
+  static double getSp(double value) => value;
 
   //<editor-fold desc="FontSize Getters">
   static double get s5 => getSp(5);

@@ -17,6 +17,7 @@ class Constants {
 
   static const defaultPadding = 20.0;
   static const defaultDuration = Duration(seconds: 1); // we use it on our animation
+  static const smallDuration = Duration(milliseconds: 250); // we use it on our animation
   static const maxWidth = 1440.0; // max width of our web
 
   FirebaseFirestore firestore = FirebaseFirestore.instance;
