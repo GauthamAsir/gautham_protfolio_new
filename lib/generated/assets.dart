@@ -4,15 +4,23 @@ class Assets {
 
   static const String fontsPoppinsBlack = 'assets/fonts/Poppins-Black.ttf';
   static const String fontsPoppinsBold = 'assets/fonts/Poppins-Bold.ttf';
-  static const String fontsPoppinsExtraBold =
-      'assets/fonts/Poppins-ExtraBold.ttf';
-  static const String fontsPoppinsExtraLight =
-      'assets/fonts/Poppins-ExtraLight.ttf';
+  static const String fontsPoppinsExtraBold = 'assets/fonts/Poppins-ExtraBold.ttf';
+  static const String fontsPoppinsExtraLight = 'assets/fonts/Poppins-ExtraLight.ttf';
   static const String fontsPoppinsLight = 'assets/fonts/Poppins-Light.ttf';
   static const String fontsPoppinsMedium = 'assets/fonts/Poppins-Medium.ttf';
   static const String fontsPoppinsRegular = 'assets/fonts/Poppins-Regular.ttf';
-  static const String fontsPoppinsSemiBold =
-      'assets/fonts/Poppins-SemiBold.ttf';
+  static const String fontsPoppinsSemiBold = 'assets/fonts/Poppins-SemiBold.ttf';
   static const String fontsPoppinsThin = 'assets/fonts/Poppins-Thin.ttf';
+  static const String iconsGithub = 'assets/icons/github.svg';
+  static const String iconsLinkedin = 'assets/icons/linkedin.svg';
+  static const String iconsTwitter = 'assets/icons/twitter.svg';
+  static const String imagesAppDesign = 'assets/images/app_design.png';
+  static const String imagesFasheo = 'assets/images/fasheo.png';
+  static const String imagesJustAudio = 'assets/images/just_audio.png';
   static const String imagesMyPic = 'assets/images/my_pic.jpg';
+  static const String imagesProjectMaintain = 'assets/images/project_maintain.png';
+  static const String imagesSmartSwitch = 'assets/images/smart_switch.png';
+  static const String imagesWebDesign = 'assets/images/web_design.png';
+  static const String imagesWhatsappStatus = 'assets/images/whatsapp_status.png';
+
 }

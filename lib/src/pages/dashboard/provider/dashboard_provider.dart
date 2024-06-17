@@ -9,6 +9,8 @@ class DashboardProvider extends ChangeNotifier {
 
   DashboardProvider(this.ref);
 
+  final PageController pageController = PageController();
+
   int _selectedIndex = 0;
   int get selectedIndex => _selectedIndex;
   set selectedIndex(int value) {
