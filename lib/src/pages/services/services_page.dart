@@ -99,7 +99,7 @@ class ServicesItem extends ConsumerWidget {
       padding: const EdgeInsets.symmetric(horizontal: 18),
       decoration: BoxDecoration(
           color: theme == ThemeMode.light ? AppColors.cardColor : AppColors.darkCardColor,
-          borderRadius: BorderRadius.all(Radius.circular(14),),),
+          borderRadius: const BorderRadius.all(Radius.circular(14),),),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
