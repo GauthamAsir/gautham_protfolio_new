@@ -32,6 +32,7 @@ class Sizes {
   static final h40 = SizedBox(height: ScreenSize.s40);
   static final h44 = SizedBox(height: ScreenSize.s44);
   static final h48 = SizedBox(height: ScreenSize.s48);
+  static final h50 = SizedBox(height: ScreenSize.s50);
   static final h56 = SizedBox(height: ScreenSize.s56);
   static final h60 = SizedBox(height: ScreenSize.s60);
   static final h64 = SizedBox(height: ScreenSize.s64);

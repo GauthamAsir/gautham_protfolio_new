@@ -17,4 +17,19 @@ class DashboardProvider extends ChangeNotifier {
     _selectedIndex = value;
     notifyListeners();
   }
+
+  onItemSelected(index) {
+
+    if (index == _selectedIndex) {
+      return;
+    }
+
+    /// TEMP
+    if (index > 3) {
+      return;
+    }
+
+    pageController.animateToPage(index,
+        duration: const Duration(milliseconds: 300), curve: Curves.ease);
+  }
 }

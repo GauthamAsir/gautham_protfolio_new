@@ -4,8 +4,8 @@ import 'package:gautham_protfolio_new/src/utilities/app_colors.dart';
 import 'package:gautham_protfolio_new/src/utilities/extensions.dart';
 import 'package:gautham_protfolio_new/src/utilities/themes.dart';
 
-class MobileDrawertem extends ConsumerWidget {
-  const MobileDrawertem({
+class MobileDrawerItem extends ConsumerWidget {
+  const MobileDrawerItem({
     super.key,
     required this.text,
     required this.onTap,
