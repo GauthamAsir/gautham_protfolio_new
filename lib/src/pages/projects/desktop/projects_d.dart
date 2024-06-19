@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:gautham_protfolio_new/generated/assets.dart';
 import 'package:gautham_protfolio_new/src/pages/projects/widgets/project_item.dart';
-import 'package:gautham_protfolio_new/src/utilities/app_colors.dart';
 import 'package:gautham_protfolio_new/src/utilities/extensions.dart';
 import 'package:gautham_protfolio_new/src/utilities/sizes.dart';
 

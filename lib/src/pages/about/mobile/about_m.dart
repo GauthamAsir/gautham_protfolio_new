@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:gautham_protfolio_new/generated/assets.dart';
 import 'package:gautham_protfolio_new/src/pages/about/widgets/skill_item.dart';
 import 'package:gautham_protfolio_new/src/utilities/extensions.dart';
 import 'package:gautham_protfolio_new/src/utilities/sizes.dart';
